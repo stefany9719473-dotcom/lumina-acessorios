@@ -22,7 +22,7 @@ const produtos = [
     nome: "Pulseira Masculina Prata de Lei",
     preco: 220.00,
     categoria: ["prata", "masculino"],
-    imagem: "https://images.unsplash.com/photo-1611591475179-425d12590749?auto=format&fit=crop&w=500&q=80"
+    imagem: "https://mirianteofilojoias.com.br/produto/pulseira-de-prata-925-masculina-3x1-figaro-8mm/?srsltid=AU7gw4UP7VmsWcsh8DXF5r3LfshcwSZeLrPvUOj6qkmu7I-MVy7uG4hP"
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const produtos = [
     nome: "Medalha de São Bento em Prata",
     preco: 149.90,
     categoria: ["catolico", "prata", "masculino"],
-    imagem: "https://images.unsplash.com/photo-1611591475179-425d12590749?auto=format&fit=crop&w=500&q=80"
+    imagem: "https://joiaspersonalizadasrecife.com.br/produto/medalha-de-sao-bento-em-prata/?srsltid=AU7gw4V_ZDFcTaWdhVb8fNpXFGy1N-jN9576xgkJodrXOsyNuakwq_Wx"
   }
 ];
 
