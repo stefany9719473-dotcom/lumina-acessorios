@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumina - Acessórios Personalizados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">LUMINA <span>Acessórios</span></div>
+    <nav>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre Nós</a>
+    </nav>
+    <div class="carrinho-icon" onclick="toggleCarrinho()">
+      🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <!-- Banner Principal -->
+  <section class="hero">
+    <h1>Acessórios Personalizados com Propósito</h1>
+    <p>Joias em Prata, Ouro e Peças Católicas Masculinas e Femininas.</p>
+    <a href="#produtos" class="btn">Ver Coleção</a>
+  </section>
+
+  <!-- Seção de Produtos -->
+  <section id="produtos" class="container">
+    <h2>Nossa Coleção</h2>
+
+    <!-- Filtros -->
+    <div class="filters">
+      <button class="filter-btn active" onclick="filtrar('todos')">Todos</button>
+      <button class="filter-btn" onclick="filtrar('catolico')">Católicos</button>
+      <button class="filter-btn" onclick="filtrar('prata')">Prata</button>
+      <button class="filter-btn" onclick="filtrar('ouro')">Ouro</button>
+      <button class="filter-btn" onclick="filtrar('masculino')">Masculino</button>
+      <button class="filter-btn" onclick="filtrar('feminino')">Feminino</button>
+    </div>
+
+    <!-- Grid de Produtos -->
+    <div class="products-grid" id="products-container">
+      <!-- Produtos inseridos dinamicamente pelo JavaScript -->
+    </div>
+  </section>
+
+  <!-- Aba Lateral do Carrinho -->
+  <div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Seu Carrinho</h3>
+      <button onclick="toggleCarrinho()">✕</button>
+    </div>
+    <div id="cart-items" class="cart-items">
+      <p class="empty-cart">Seu carrinho está vazio.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="total">Total: <span id="cart-total">R$ 0,00</span></div>
+      <button class="btn-whatsapp" onclick="finalizarWhatsApp()">Finalizar no WhatsApp 📲</button>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2026 Lumina Acessórios Personalizados. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
