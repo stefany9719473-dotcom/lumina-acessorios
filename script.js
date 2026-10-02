@@ -15,7 +15,7 @@ const produtos = [
     nome: "Escapulário em Ouro 18k Personalizado",
     preco: 450.00,
     categoria: ["catolico", "ouro", "masculino", "feminino"],
-    imagem: "https://images.unsplash.com/photo-1611591475179-425d12590749?auto=format&fit=crop&w=500&q=80"
+    imagem: "https://www.joiasnossasenhora.com.br/escapulario-ouro-18k-cruz-sao-bento?srsltid=AU7gw4WT-mI8briFC3vgqIiVPjtAdW8crctbCOJ5ZErQEXaiIkbMrj4T"
   },
   {
     id: 3,
