@@ -8,21 +8,21 @@ const produtos = [
     nome: "Terço Personalizado em Prata 925",
     preco: 189.90,
     categoria: ["catolico", "prata", "feminino", "masculino"],
-    imagem: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=500&q=80"
+    imagem: "https://images.tcdn.com.br/img/img_prod/680812/tero_noiva_luxo_perola_de_agua_doce_folheado_a_pra_1_20260730154234_3fddb89dafef.jpg"
   },
   {
     id: 2,
     nome: "Escapulário em Ouro 18k Personalizado",
     preco: 450.00,
     categoria: ["catolico", "ouro", "masculino", "feminino"],
-    imagem: "https://www.joiasnossasenhora.com.br/escapulario-ouro-18k-cruz-sao-bento?srsltid=AU7gw4WT-mI8briFC3vgqIiVPjtAdW8crctbCOJ5ZErQEXaiIkbMrj4T"
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNenEVe6gJAe-XKdLYTmQeoyzjLG_IIn4dPe6xpMThO6c9O0ePBN9w79g&s=10"
   },
   {
     id: 3,
     nome: "Pulseira Masculina Prata de Lei",
     preco: 220.00,
     categoria: ["prata", "masculino"],
-    imagem: "https://mirianteofilojoias.com.br/produto/pulseira-de-prata-925-masculina-3x1-figaro-8mm/?srsltid=AU7gw4UP7VmsWcsh8DXF5r3LfshcwSZeLrPvUOj6qkmu7I-MVy7uG4hP"
+    imagem: "https://mirianteofilojoias.com.br/wp-content/uploads/2024/07/8752-1.jpg"
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const produtos = [
     nome: "Medalha de São Bento em Prata",
     preco: 149.90,
     categoria: ["catolico", "prata", "masculino"],
-    imagem: "https://joiaspersonalizadasrecife.com.br/produto/medalha-de-sao-bento-em-prata/?srsltid=AU7gw4V_ZDFcTaWdhVb8fNpXFGy1N-jN9576xgkJodrXOsyNuakwq_Wx"
+    imagem: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lx02s760kple18"
   }
 ];
 
