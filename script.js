@@ -1,5 +1,5 @@
 // Insira o número do WhatsApp da sua loja aqui (com DDD e Código do País)
-const TELEFONE_WHATSAPP = "5535999999999"; 
+const TELEFONE_WHATSAPP = "5535999647435"; 
 
 // Lista de produtos de exemplo
 const produtos = [
