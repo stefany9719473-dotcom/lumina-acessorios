@@ -48,7 +48,7 @@ const produtos = [
   {
     id: 7,
     nome: "Colar feminino em Prata 925 ponto de luz",
-    preco: 199.90,
+    preco: 170.99,
     categoria: ["Prata", "feminino"],
     imagem: "https://allsilver.com.br/wp-content/uploads/20240711_190246083_iOS.jpg"
   }
