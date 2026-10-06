@@ -58,6 +58,13 @@ const produtos = [
     preco: 399.99,
     categoria: ["catolico","Prata", "feminino"],
     imagem: "https://images.tcdn.com.br/img/img_prod/680812/tero_noiva_zircnia_casamento_luxo_espirito_santo_f_1_20260314053814_af929dd18a14.jpg"
+  },
+    {
+    id: 9,
+    nome: "Colar feminino Trevo Azul água em Prata 925",
+    preco: 340.00,
+    categoria: ["Prata", "feminino"],
+    imagem: "https://images.tcdn.com.br/img/img_prod/743448/conjunto_2_correntes_femininas_pingente_em_prata_1_20260428152433_4d2a7d5675f4.jpg"
   }
 ];
 
