@@ -269,3 +269,48 @@ footer {
   color: #888;
   margin-top: 4rem;
 }
+
+/* Estilos da Página Sobre Nós */
+.active-link {
+  color: #d4af37 !important;
+  font-weight: bold;
+}
+
+.about-hero {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-card {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-card h2 {
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+.about-card p {
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+}
+
+.about-card .btn {
+  margin-top: 1rem;
+}
