@@ -5,38 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sobre Nós - Lumina Acessórios</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .sobre-container {
-      max-width: 800px;
-      margin: 4rem auto;
-      padding: 0 1.5rem;
-      text-align: center;
-    }
-
-    .sobre-content {
-      background: #fff;
-      padding: 2.5rem;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.08);
-      margin-top: 2rem;
-    }
-
-    .sobre-content p {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      color: #555;
-      margin-bottom: 1.5rem;
-    }
-
-    .sobre-content p:last-child {
-      margin-bottom: 0;
-    }
-
-    .destaque {
-      color: #d4af37;
-      font-weight: bold;
-    }
-  </style>
 </head>
 <body>
 
@@ -46,21 +14,33 @@
     <nav>
       <a href="index.html">Início</a>
       <a href="index.html#produtos">Produtos</a>
-      <a href="sobre.html">Sobre Nós</a>
+      <a href="sobre.html" class="active-link">Sobre Nós</a>
     </nav>
+    <div class="carrinho-icon" onclick="window.location.href='index.html#produtos'">
+      🛒 <span id="cart-count">0</span>
+    </div>
   </header>
 
+  <!-- Banner Sobre Nós -->
+  <section class="about-hero">
+    <h1>Nossa História</h1>
+    <p>Conheça a paixão por trás de cada detalhe da Lumina.</p>
+  </section>
+
   <!-- Conteúdo Principal -->
-  <main class="sobre-container">
-    <h2>Sobre a Lumina</h2>
-    
-    <div class="sobre-content">
+  <main class="container about-container">
+    <div class="about-card">
+      <h2>Lumina Acessórios Personalizados</h2>
       <p>
-        Na <span class="destaque">Lumina</span>, acreditamos que cada acessório carrega uma história, um sentimento e um propósito singular. Nascemos com a missão de criar joias em Prata 925 e Ouro 18k que vão além da estética — expressando a fé, o amor e a individualidade de quem as usa.
+        Na <strong>Lumina</strong>, acreditamos que joias e acessórios não servem apenas para compor o visual — eles contam histórias, expressam devoção e eternizam momentos especiais.
       </p>
       <p>
-        Especializados em peças personalizadas e artigos católicos masculinos e femininos, combinamos elegância, qualidade e devoção em cada detalhe. Nosso compromisso é entregar não apenas um produto, mas uma lembrança eterna feita com carinho para acompanhar você em todos os momentos.
+        Especializada em peças personalizadas em <strong>Prata 925</strong>, <strong>Ouro 18k</strong> e <strong>artigos católicos</strong> para o público masculino e feminino, nossa missão é transformar fé, afeição e identidade em joias de altíssima qualidade.
       </p>
+      <p>
+        Cada detalhe é trabalhado com carinho e precisão para entregar um acessório com propósito, feito sob medida para você ou para presentear quem você ama.
+      </p>
+      <a href="index.html#produtos" class="btn">Conheça Nossa Coleção</a>
     </div>
   </main>
 
