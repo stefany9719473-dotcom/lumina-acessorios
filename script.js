@@ -38,6 +38,13 @@ const produtos = [
     categoria: ["catolico", "prata", "masculino"],
     imagem: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lx02s760kple18"
   }
+  {
+    id: 6,
+    nome: "Medalha de São Bento em Ouro",
+    preco: 199.90,
+    categoria: ["catolico", "Ouro", "masculino"],
+    imagem: "https://cdn.awsli.com.br/2452/2452519/produto/166985894/whatsapp-image-2026-03-11-at-09-18-18-v54pdojgu5.jpeg"
+  }
 ];
 
 let carrinho = [];
