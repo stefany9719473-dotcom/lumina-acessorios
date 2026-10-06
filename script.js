@@ -55,7 +55,7 @@ const produtos = [
   {
     id: 8,
     nome: "Terço noiva com zircônia folheado a Ouro 18k",
-    preco: 170.99,
+    preco: 399.99,
     categoria: ["catolico","Prata", "feminino"],
     imagem: "https://images.tcdn.com.br/img/img_prod/680812/tero_noiva_zircnia_casamento_luxo_espirito_santo_f_1_20260314053814_af929dd18a14.jpg"
   }
