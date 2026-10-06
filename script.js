@@ -57,7 +57,7 @@ const produtos = [
     nome: "Terço noiva com zircônia folheado a Ouro 18k",
     preco: 170.99,
     categoria: ["catolico","Prata", "feminino"],
-    imagem: "https://allsilver.com.br/wp-content/uploads/20240711_190246083_iOS.jpg"
+    imagem: "https://images.tcdn.com.br/img/img_prod/680812/tero_noiva_zircnia_casamento_luxo_espirito_santo_f_1_20260314053814_af929dd18a14.jpg"
   }
 ];
 
