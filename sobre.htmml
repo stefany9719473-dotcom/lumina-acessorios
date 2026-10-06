@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nós - Lumina Acessórios</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .sobre-container {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 0 1.5rem;
+      text-align: center;
+    }
+
+    .sobre-content {
+      background: #fff;
+      padding: 2.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+      margin-top: 2rem;
+    }
+
+    .sobre-content p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    .sobre-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    .destaque {
+      color: #d4af37;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">LUMINA <span>Acessórios</span></div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="index.html#produtos">Produtos</a>
+      <a href="sobre.html">Sobre Nós</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="sobre-container">
+    <h2>Sobre a Lumina</h2>
+    
+    <div class="sobre-content">
+      <p>
+        Na <span class="destaque">Lumina</span>, acreditamos que cada acessório carrega uma história, um sentimento e um propósito singular. Nascemos com a missão de criar joias em Prata 925 e Ouro 18k que vão além da estética — expressando a fé, o amor e a individualidade de quem as usa.
+      </p>
+      <p>
+        Especializados em peças personalizadas e artigos católicos masculinos e femininos, combinamos elegância, qualidade e devoção em cada detalhe. Nosso compromisso é entregar não apenas um produto, mas uma lembrança eterna feita com carinho para acompanhar você em todos os momentos.
+      </p>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2026 Lumina Acessórios Personalizados. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
