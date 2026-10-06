@@ -37,13 +37,20 @@ const produtos = [
     preco: 149.90,
     categoria: ["catolico", "prata", "masculino"],
     imagem: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lx02s760kple18"
-  }
+  },
   {
     id: 6,
     nome: "Medalha de São Bento em Ouro",
     preco: 199.90,
     categoria: ["catolico", "Ouro", "masculino"],
     imagem: "https://cdn.awsli.com.br/2452/2452519/produto/166985894/whatsapp-image-2026-03-11-at-09-18-18-v54pdojgu5.jpeg"
+  },
+  {
+    id: 7,
+    nome: "Colar feminino em Prata 925 ponto de luz",
+    preco: 199.90,
+    categoria: ["Prata", "feminino"],
+    imagem: "https://allsilver.com.br/wp-content/uploads/20240711_190246083_iOS.jpg"
   }
 ];
 
